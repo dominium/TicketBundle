@@ -1,5 +1,5 @@
 {
-    "name": "kdrmklabs/ticket-bundle",
+    "name": "dominium/ticket-bundle",
     "type": "symfony-bundle",
     "description": "This bundle provides a customer support system by integrating a ticketing functionality for Symfony2 applications.",
     "keywords": [
@@ -22,8 +22,8 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "~2.1",
-        "gedmo/doctrine-extensions": "~2.3.1"
+        "symfony/framework-bundle": ">=2.1",
+        "gedmo/doctrine-extensions": "=>2.3.1"
     },
     "autoload": {
         "psr-0": {
